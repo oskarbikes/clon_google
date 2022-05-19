@@ -44,30 +44,67 @@ a{
 	align-items: center;
 	margin: 15px 0px 25px
 }
-.container__search{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 .container__button{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 100px 0px 145px 0px;
+	padding: 3% 0px 145px 0px;
+}
+.container__search{
+	display: flex;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: auto;
+    max-width: 584px;
 }
 .container__search--input__text{
-	width: 80%;
-	height: 44px;
-	border-radius: 25px;
-	border:1px solid lightgray;
+	border:#dfe1e5;
+	width: 90%;
+	border-radius: 24px;
+	justify-content: flex;
+	flex: 80%;
+}
+.container__button--buscar{
+	background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    padding: 0 16px;
+    height: 36px;
+	margin-right: 0.5%;
+}
+.container__button--suerte{
+	background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    padding: 0 16px;
+    height: 36px;
+	margin-left: 0.5%;
 }
 .colombia{
-	border-bottom:1px solid darkgray ;
-	padding: 30px 0px 15px 23px;
+	padding: 0.2%;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
 	background-color:#dadce0;
-	color:dimgray;
-	font-size: 15px;
-	display: inline-block
+	border-bottom:solid 1px #a1a3a7;
+}
+.box{
+	display: flex;
+	flex-wrap: wrap;
+	width: 30%;
+}
+.footer{
+	flex-shrink: 0;
+    box-sizing: border-box;
 }
 footer{
 	border-bottom:1px solid darkgray ;
@@ -77,7 +114,7 @@ footer{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	padding: 1rem;
+	padding: 1%;
 }
 */display: flex;/*
 	justify-content: center;
@@ -101,3 +138,8 @@ footer{
 	font-size: 15px;
 	center{
 	padding: 20px 200px 160px;
+
+	width: 80%;
+	height: 44px;
+	border-radius: 25px;
+	border:1px solid lightgray;
